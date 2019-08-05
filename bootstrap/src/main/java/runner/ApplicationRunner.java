@@ -1,5 +1,6 @@
 package runner;
 
+import CSVWriter.CSVWriter;
 import car.ModularCar;
 import carprocessor.ModularCarprocessor;
 import json.ModularJSONReader;
@@ -31,6 +32,10 @@ public class ApplicationRunner {
 
         carList.stream().limit(1).forEach(x -> System.out.println("The oldest car is "
                 + x.toString()));
+
+        CSVWriter.getInstance("cars.csv").write_CSV_process(carList);
+
+
 
 
     }
