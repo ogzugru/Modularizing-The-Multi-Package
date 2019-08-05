@@ -1,3 +1,4 @@
+package car;
 
 public class ModularCar {
 /*  "make":"Isuzu",
