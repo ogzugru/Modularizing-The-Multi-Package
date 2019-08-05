@@ -13,3 +13,5 @@ output
 * The 12th car was maked by Holden
 * Purple Ford 2012 Mustang is the newest car of the town
 * The oldest car is Khaki Volkswagen 1967 Beetle
+
+![Alt text](./summary.jpg?sanitize=true)
