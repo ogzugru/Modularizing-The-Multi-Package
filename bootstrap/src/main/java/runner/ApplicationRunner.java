@@ -10,7 +10,7 @@ public class ApplicationRunner {
     public static void  main(String args[]) {
 
         String mainPath = ApplicationRunner.class.getName().replace(".", "/") + ".class";
-        URL file_path =ApplicationRunner.class.getClassLoader().getResource(mainPath);
+        URL file_path =ApplicationRunner.class.getClassLoader().getResource("cars.json");
 
         System.out.println(file_path.toString());
 
